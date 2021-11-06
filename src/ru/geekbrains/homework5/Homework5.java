@@ -18,8 +18,8 @@ public class Homework5 {
             arr[i] = (float) (arr[i] * Math.sin(0.2f + i / 5) * Math.cos(0.2f + i / 5) * Math.cos(0.4f + i / 2));
         }
         System.out.println("Время работы метода1: " + (System.currentTimeMillis() - start));
+
     }
 }
-
 
 
